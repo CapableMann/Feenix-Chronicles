@@ -1,6 +1,7 @@
 #include  <SFML/Graphics.hpp>
 #include  <iostream>
 #include "main_menu.h"
+#include "pvparena.h"
 
 int main()
 {
@@ -32,7 +33,15 @@ int main()
                     break;
                 }
                 if (_event.key.code == sf::Keyboard::Return) {
-                    std::cout << "DEED Done" << std::endl;
+                    if (menu.selected_item_index == 0) {
+                        std::cout << "story" << std::endl;
+                    }
+                    else if (menu.selected_item_index == 1) {
+                        pvparena();
+                    }
+                    else if (menu.selected_item_index == 2) {
+                        std::cout << "exit" << std::endl;
+                    }
                 }
             }
         }

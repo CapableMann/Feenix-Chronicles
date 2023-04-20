@@ -11,9 +11,9 @@ public:
 	void draw_elements(sf::RenderWindow& window);
 	void move_up();
 	void move_down();
+	int selected_item_index = 0;
 
 private:
-	int selected_item_index=0;
 	sf::Font title_font;
 	sf::Font button_font;
 	sf::Text menu_buttons[NO_OF_BUTTONS];

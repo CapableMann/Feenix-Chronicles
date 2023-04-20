@@ -1,2 +1,12 @@
-﻿  pvpscreen.cpp
-  Project1.vcxproj -> D:\FeenixChronicles\Feenix-Chronicles\game\Project1\x64\Debug\Project1.exe
+﻿  main.cpp
+F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\main.cpp(9,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\main.cpp(9,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Project1.vcxproj -> F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\x64\Debug\Project1.exe

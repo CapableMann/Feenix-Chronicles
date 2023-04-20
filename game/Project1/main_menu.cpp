@@ -23,7 +23,7 @@ main_menu::main_menu(float width, float height)
 	menu_buttons[0].setPosition(sf::Vector2f(150, 350));
 	menu_buttons[0].setString("STORY MODE");
 	menu_buttons[0].setFont(button_font);
-	menu_buttons[0].setFillColor(sf::Color::White);
+	menu_buttons[0].setFillColor(sf::Color::Red);
 
 	//PvP
 	menu_buttons[1].setCharacterSize(70);

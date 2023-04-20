@@ -32,5 +32,8 @@
     <ClInclude Include="pvpscreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pvparena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
