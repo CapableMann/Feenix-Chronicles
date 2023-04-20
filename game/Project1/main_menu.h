@@ -7,13 +7,13 @@ class main_menu
 {
 public:
 	main_menu(float width, float height);
+	~main_menu();
 	void draw_elements(sf::RenderWindow& window);
 	void move_up();
 	void move_down();
-	int Get_item_index();
-	void mouse_pressed(sf::RenderWindow & window);
+
 private:
-	int selected_item_index;
+	int selected_item_index=0;
 	sf::Font title_font;
 	sf::Font button_font;
 	sf::Text menu_buttons[NO_OF_BUTTONS];
