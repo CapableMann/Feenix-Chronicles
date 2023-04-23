@@ -6,7 +6,7 @@ Player::Player(sf::Color color, float xPos, float yPos) : player_hitbox(sf::Vect
 {
 	player_hitbox.setFillColor(color);
 	player_hitbox.setPosition(xPos, yPos);
-	player_speed = 200.f;
+	player_speed = 400.f;
 	player_jumpSpeed = 1000.f;
 }
 
@@ -18,6 +18,13 @@ void Player::mover(float x, float y, float delta_time)
 {
     //Move the player
     player_hitbox.move(x * horizontal_multiplier * player_speed * delta_time, y * horizontal_multiplier * player_speed * delta_time);
+
+	if (player_hitbox.getPosition().x < 0) {
+		player_hitbox.setPosition(0, player_hitbox.getPosition().y);
+	}
+	if (player_hitbox.getPosition().x > 1250) {
+		player_hitbox.setPosition(1250, player_hitbox.getPosition().y);
+	}
     
 }
 
@@ -25,7 +32,7 @@ void Player::MakeJump()
 {
 	if (player_hitbox.getPosition().y >= 500.f) {
 		isJumping = true;
-		horizontal_multiplier = 5;
+		horizontal_multiplier = 2;
 	}
 }
 

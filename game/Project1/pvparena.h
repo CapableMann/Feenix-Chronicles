@@ -42,9 +42,9 @@ void pvparena() {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
             player1.MakeJump();
         }
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
+        /*if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
             player1.mover(0.f, 1.f, delta_time);
-        }
+        }*/
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
             player1.mover(-1.f, 0.f, delta_time);
         }
@@ -56,9 +56,9 @@ void pvparena() {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
             player2.MakeJump();
         }
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+        /*if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
             player2.mover(0.f, 1.f, delta_time);
-        }
+        }*/
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
             player2.mover(-1.f, 0.f, delta_time);
         }
