@@ -1,4 +1,15 @@
-﻿  main.cpp
+﻿  Animation.cpp
+F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\Animation.cpp(11,39): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\Animation.cpp(12,40): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  main.cpp
 F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\main.cpp(9,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
@@ -9,4 +20,5 @@ F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\main.cp
           [
               T=unsigned int
           ]
+  Generating Code...
   Project1.vcxproj -> F:\Github Repositories\Feenix Chronicles\Feenix-Chronicles\game\Project1\x64\Debug\Project1.exe

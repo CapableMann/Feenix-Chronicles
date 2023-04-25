@@ -139,12 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Collider.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_menu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="pvpscreen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Collider.h" />
     <ClInclude Include="main_menu.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="pvparena.h" />
